@@ -1,0 +1,16 @@
+.wrapper-project {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper-project h1 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+}
