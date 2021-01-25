@@ -1,16 +1,100 @@
 .wrapper-project {
   display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  align-items: center;
-  text-align: center;
 }
 
-.wrapper-project h1 {
+.wrapper-project h2 {
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   color: #FFFFFF;
+}
+
+.wrapper-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #505050;
+  width: 10rem;
+  height: 15rem;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card img {
+  width: 10rem;
+  height: 8rem;
+  border-radius: 5px;
+}
+
+.button-project {
+  display: flex;
+  flex-direction: row;
+  width:10rem;
+}
+
+.card span {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+a.project-button {
+  background-color: #EF8354;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  width: 4rem;
+  padding: 5px;
+}
+
+a.code-button {
+  background-color: #4F5D75;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  width: 4rem;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 425px) {
+  .wrapper-card {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper-card {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .wrapper-project {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrapper-project {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
