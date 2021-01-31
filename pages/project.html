@@ -8,48 +8,32 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Roboto:wght@100;300;500;700;900&display=swap" 
     rel="stylesheet"
   >
-  <link rel="stylesheet" href="/css/index.css">
-  <link rel="stylesheet" href="/css/project.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <title>Project's Rendy Artha</title>
 </head>
-<body>
-  <nav>
-    <a href="/pages/index.html">
-      <h1>RENDYARTHA</h1>
-    </a>
-    <ul>
-      <li>
-        <a href="/pages/project.html">Project</a>
-      </li>
-      <li>
-        <a href="/pages/blog.html">Blog</a>
-      </li>
-    </ul>
-    <div class="menu">
-      <span></span>
-      <span></span>
-      <span></span>
+<body class="bg-dark">
+  <nav class="navbar navbar-light bg-dark px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="../index.html">RENDYARTHA</a>
+      <div class="d-flex">
+        <a href="/pages/project.html" class="nav-link text-white">Project</a>
+        <a href="/pages/blog.html" class="nav-link text-white">Blog</a>
+      </div>
     </div>
   </nav>
-  <div class="wrapper-project">
-    <h2>Project</h2>
-    <div class="wrapper-card">
-      <div class="card">
-        <img src="/images/project/color-generator.png" alt="">
-        <span>Color Generator</span>
-        <div class="button-project">
-          <a
-            href="https://rendy-color-generator.netlify.app/"
-            class="project-button"
-          >
-            Project
-          </a>
-          <a 
-            href="https://github.com/RendyArthaP/color-generator"
-            class="code-button"
-          >
-            Code
-          </a>
+  <div class="container d-sm-flex pt-sm-5 px-sm-4 align-self-center align-items-center">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="card bg-secondary" style="width: 18rem;">
+          <img src="/images/project/color-generator.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Color Generator</h5>
+            <p class="card-text"></p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/RendyArthaP/color-generator" class="btn btn-warning">Code</a>
+              <a href="https://rendy-color-generator.netlify.app/" class="btn btn-primary">Run</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
